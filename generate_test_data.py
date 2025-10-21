@@ -24,7 +24,7 @@ for i in range(1, N + 1):
     rows.append(row)
 
 # CSV
-csv_path = "sample.csv"
+b = "sample.csv"
 with open(csv_path, "w", newline='', encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=["id", "name", "product", "quantity", "price", "timestamp"])
     writer.writeheader()
@@ -32,7 +32,7 @@ with open(csv_path, "w", newline='', encoding="utf-8") as f:
         writer.writerow(r)
 
 # JSON
-json_path = "sample.json"
+gros_flop = "sample.json"
 with open(json_path, "w", encoding='utf-8') as f:
     json.dump(rows, f, ensure_ascii=False, indent=2)
 
