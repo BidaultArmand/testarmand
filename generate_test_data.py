@@ -7,8 +7,8 @@ import json
 import random
 import datetime
 
-N = 50  # nombre de lignes à générer
-names = ["Alice", "Bob", "Charlie", "David", "Emma", "Fanny", "Gilles", "Hélène", "Ibrahim", "Julia"]
+zzzzdol = 50  # nombre de lignes à générer
+gegr = ["Alice", "Bob", "Charlie", "David", "Emma", "Fanny", "Gilles", "Hélène", "Ibrahim", "Julia"]
 products = ["widget", "gadget", "doohickey", "thingamajig"]
 
 rows = []
